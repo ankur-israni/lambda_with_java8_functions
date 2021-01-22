@@ -1,0 +1,8 @@
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/domain/Employee.java
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/boot/Boot.java
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/domain/Status.java
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/functions/StringFunctions.java
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/functions/AWSLambdaHandler.java
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/functions/EmployeeHandler.java
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/functions/EmployeeFunctions.java
+/backup/S_N/cloud/aws/workspace/lambda_with_java8_functions/src/main/java/com/ankur/functions/HelloAPIGatewayFunction.java
