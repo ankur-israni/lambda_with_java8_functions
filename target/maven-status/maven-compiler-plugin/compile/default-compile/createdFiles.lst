@@ -1,8 +1,10 @@
-com/ankur/functions/HelloAPIGatewayFunction.class
 com/ankur/domain/Employee.class
 com/ankur/functions/EmployeeHandler.class
 com/ankur/functions/EmployeeFunctions.class
 com/ankur/functions/StringFunctions.class
 com/ankur/domain/Status.class
+com/ankur/boot/AWSLambdaHandler.class
 com/ankur/boot/Boot.class
-com/ankur/functions/AWSLambdaHandler.class
+com/ankur/todo_and_delete/HelloAPIGatewayFunction.class
+com/ankur/todo_and_delete/AWSLambdaHandler.class
+com/ankur/boot/LengthFunction.class

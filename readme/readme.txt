@@ -1,6 +1,6 @@
 Test functions from the command line
 ************************************************
-Start the spring boot application
+Start the spring boot application (mvn spring-boot:run)
 >
 Terminal Window >
 >
@@ -11,6 +11,8 @@ curl -H "Content-Type: text/plain" localhost:4080/toUpperCase -d ankur
 curl -H "Content-Type: text/plain" localhost:4080/reverse -d ankur
 curl -H "Content-Type: text/plain" localhost:4080/toLowerCase -d "ANKUR ISRanI"
 
+#This one is not working.
+curl -H "Content-Type: text/plain" localhost:4080/length -d "ankur"
 
 Employee functions
 ------------------------
@@ -23,4 +25,9 @@ Reference
 ****************
 https://www.youtube.com/watch?v=6A9pqr4qQMo&t=4s
 
+https://www.youtube.com/watch?v=Bj_5U7h_Ri0
+
 https://www.baeldung.com/spring-cloud-function
+
+https://github.com/spring-cloud/spring-cloud-function/tree/master/spring-cloud-function-samples/function-sample-aws
+https://docs.spring.io/spring-cloud-function/docs/3.0.8.RELEASE/reference/html/aws.html#_getting_started

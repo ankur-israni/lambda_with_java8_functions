@@ -3,6 +3,7 @@ package com.ankur.functions;
 
 import com.ankur.domain.Employee;
 import com.ankur.domain.Status;
+import org.springframework.cloud.function.adapter.aws.SpringBootRequestHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
