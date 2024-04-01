@@ -1,6 +1,8 @@
 package com.ankur.functions;
 
 
+import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
+import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
 import com.ankur.domain.Employee;
 import com.ankur.domain.Status;
 import org.springframework.cloud.function.adapter.aws.SpringBootRequestHandler;
@@ -15,12 +17,12 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 @Component
-public class EmployeeFunctions {
+public class EmployeeFunctions{
 
     private Map<Integer, Employee> db = new HashMap<>();
 
     public EmployeeFunctions() {
-        db.put(1, new Employee(1, "com/ankur", "frisco"));
+        db.put(1, new Employee(1, "ankur", "frisco"));
         db.put(2, new Employee(2, "ravi", "plano"));
         db.put(3, new Employee(3, "shankar", "addison"));
     }

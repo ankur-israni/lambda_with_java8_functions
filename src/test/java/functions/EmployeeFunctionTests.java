@@ -28,7 +28,7 @@ public class EmployeeFunctionTests {
         Function<Integer, Employee> findByIdFunction = employeeFunctions.findById();
         Employee employee = findByIdFunction.apply(1);
         assertNotNull(employee);
-        assertEquals("com/ankur", employee.getName());
+        assertEquals("ankur", employee.getName());
         assertEquals("frisco", employee.getAddress());
     }
 
@@ -38,7 +38,7 @@ public class EmployeeFunctionTests {
         List<Employee> employees = allFunction.get();
         Employee employee1 = employees.get(0);
         assertEquals(1,employee1.getId());
-        assertEquals("com/ankur",employee1.getName());
+        assertEquals("ankur",employee1.getName());
         assertEquals("frisco",employee1.getAddress());
     }
 

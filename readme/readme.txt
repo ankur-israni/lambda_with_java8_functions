@@ -20,6 +20,17 @@ curl -H "Content-Type: text/plain" localhost:4080/all
 curl -H "Content-Type: text/plain" localhost:4080/remove -d 1
 curl -H "Content-Type: text/plain" localhost:4080/add -d "{\"id\": \"6\",\"name\":\"aaa\",\"address\": \"irving\"}"
 
+UpperCaseStringHandler
+----------------------------
+curl -H "Content-Type: text/plain" localhost:4080/upperCaseStringHandler -d ankur
+
+LowerCaseStringHandler
+----------------------------
+curl -H "Content-Type: text/plain" localhost:4080/lowercase -d ANKUR
+
+BoodAddHandler
+-----------------
+curl -H "Content-Type: text/plain" localhost:4080/bookAddHandler -d "{\"id\": \"6\",\"name\":\"sidney\",\"author\": \"ankur\"}"
 
 Reference
 ****************

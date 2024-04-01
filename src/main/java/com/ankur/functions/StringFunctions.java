@@ -6,11 +6,13 @@ import org.springframework.stereotype.Component;
 import java.util.function.Function;
 
 @Component
-public class StringFunctions {
+public class StringFunctions{
 
     @Bean
     public Function<String, String> toLowerCase() {
-        return String::toLowerCase;
+        System.out.println("StringFunctions.toLowerCase");
+       // return String::toLowerCase;
+        return (String input)->input.toLowerCase();
     }
 
     @Bean
@@ -22,8 +24,6 @@ public class StringFunctions {
     public Function<String,String> reverse(){
         return (input) -> new StringBuilder(input).reverse().toString();
     }
-
-
 
 
 }
